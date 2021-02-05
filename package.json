@@ -1,0 +1,22 @@
+{
+  "name": "proshop",
+  "version": "1.0.0",
+  "description": "MERN fullstack app",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isaaclall/Ecommerce-website-MERN-stack.git"
+  },
+  "author": "Isaac Lall",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/isaaclall/Ecommerce-website-MERN-stack/issues"
+  },
+  "homepage": "https://github.com/isaaclall/Ecommerce-website-MERN-stack#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
