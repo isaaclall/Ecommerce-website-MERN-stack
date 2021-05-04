@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/isaaclall/Ecommerce-website-MERN-stack#readme",
   "dependencies": {
+    "axios": "^0.21.1",
     "express": "^4.17.1"
   }
 }
