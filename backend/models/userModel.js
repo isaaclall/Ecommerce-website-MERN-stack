@@ -5,13 +5,13 @@ const userSchema = mongoose.Schema(
     name: { type: String, required: true },
     email: { type: String, required: true, unique: true },
     password: { type: String, required: true },
-    isAdmin: { type: boolean, required: true, default: false },
+    isAdmin: { type: Boolean, required: true, default: false },
   },
   {
     timestamps: true,
   }
 )
 
-const User = mongoode.model("User", userSchema)
+const User = mongoose.model("User", userSchema)
 
 export default User
